@@ -99,13 +99,32 @@
 }
 
 
-.ex-9-img {
+.ex-9-img {    
+    transition: border-radius;
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover {
+    border-radius: 30px;
+    filter: saturate(10) sepia(100%);
+    width: 200px;    
+}
+
+
 .ex-10-icon {
     font-size: 60px;
+    animation: rotazione 1s linear infinite;
 }
+
+@keyframes rotazione {
+    from { transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+
+}
+
+
+
 .ex-11-icon {
     font-size: 60px;
 }
