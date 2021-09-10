@@ -55,7 +55,7 @@
     width: 60px;
     height: 60px;
     background: red;
-    transition: width 2s, heigh 2s;
+    transition: width, heigh;
 }
 
 .ex-5-square:hover {
