@@ -130,15 +130,20 @@
 }
 
 .ex-11-icon:hover {
-    animation: rotazione2 4s linear infinite;
+    animation: rotazione2 2s linear infinite;
 }
 @keyframes rotazione2 {
-    from {transform: rotate(0deg)}
-    to {transform: rotate(270deg)}
+    0% {
+        transform: rotate(0);
+    }
+    95% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(-270);
+    } 
 
 }
-
-
 
 
 
