@@ -128,6 +128,20 @@
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation: rotazione2 4s linear infinite;
+}
+@keyframes rotazione2 {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(270deg)}
+
+}
+
+
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
